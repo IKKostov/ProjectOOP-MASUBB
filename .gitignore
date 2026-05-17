@@ -1,0 +1,24 @@
+# Compiled binaries
+*.exe
+*.o
+*.obj
+*.out
+ 
+# Build directories
+build/
+bin/
+ 
+# VS Code settings (optional — remove if you want to share them)
+.vscode/
+ 
+# MinGW / compiler artifacts
+*.d
+*.a
+*.lib
+*.dll
+ 
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+ 
