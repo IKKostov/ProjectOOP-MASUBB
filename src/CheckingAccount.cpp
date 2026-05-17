@@ -9,7 +9,7 @@ CheckingAccount::CheckingAccount(const std::string& id, double initialBalance,
  
 bool CheckingAccount::deposit(double amount) {
     if (!isActive()) {
-        std::cout << "  [!] Balance is not active.\n";
+        std::cout << "  [!] Account is not active.\n";
         return false;
     }
     if (amount <= 0) {
